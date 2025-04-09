@@ -1,0 +1,151 @@
+html, body, div{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url(images/bg.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: white;
+}
+.header_welcome {
+    background-color: rgb(237, 206, 5);
+    margin: 0;
+    padding: 15px 15px 15px 50px;
+    font-family: cursive;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 0 50px;
+}
+.logo_name {
+    font-family: cursive;
+}
+ul{
+    display: flex;
+    margin-left: 70px;
+    gap: 50px;
+}
+li{
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li:active{
+    color: rgb(255, 98, 0);
+}
+.button1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 98, 0);
+    border: none;
+    padding: 5px 15px 0 15px;
+    border-radius: 20px;
+    color: white;
+    font-size: small;
+}
+
+.display {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px 0;
+}
+.display_header1 {
+    font-size: small;
+    margin: 0 0 10px 0;
+}
+.display_header2 {
+    font-size: 45px;
+    margin: 0 0 50px 0;
+}
+.button2 {
+    padding: 7px 10px;
+    font-size: small;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 98, 0);
+}
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin: 0 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.media {
+    display: flex;
+}
+.facebook {
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 4px;
+    margin-top: 13px;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(255, 98, 0);
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+    background-image: url(images/bg2.jpg);
+    /* padding: 70px 50px; */
+    background-size: cover;
+    width: 100%;
+}
+@media screen and (max-width: 800px){
+    .details{
+        flex-direction: column;
+    }
+    .container1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.text {
+    color: white;
+    width: 50%;
+    margin: 70px 25px 70px 50px;
+}
+.image {
+    margin: 70px 50px 70px 25px;
+    position: relative;
+    width: 50%;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url(images/img.jpg);
+    background-size: cover;
+}
+.text-head {
+    font-family: cursive;
+}
+.text-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.white_background{
+    background-color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    border-radius: 20px;
+    opacity: 0.8;
+    display: flex;
+    padding: 20px;
+}
+.yellow_background {
+    text-align: center;
+    border-radius: 50px;
+    width: 75px;
+    height: 75px;
+    background-color: rgb(237, 194, 2);
+    /* margin: 20px 20px 20px 20px; */
+}
+.happy_moment {
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
